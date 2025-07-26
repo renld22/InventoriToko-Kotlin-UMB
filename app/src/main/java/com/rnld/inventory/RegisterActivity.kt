@@ -55,8 +55,7 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         tvLogin.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
+            goToLogin()
         }
     }
 
@@ -72,11 +71,10 @@ class RegisterActivity : AppCompatActivity() {
                         if (registerResponse != null && registerResponse.success) {
                             Toast.makeText(
                                 this@RegisterActivity,
-                                "Register berhasil: ${registerResponse.user.name}",
+                                registerResponse.message,
                                 Toast.LENGTH_SHORT
                             ).show()
-                            startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
-                            finish()
+                            goToLogin()
                         } else {
                             Toast.makeText(
                                 this@RegisterActivity,
@@ -102,4 +100,10 @@ class RegisterActivity : AppCompatActivity() {
                 }
             })
     }
+
+    private fun goToLogin() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
+        }
 }

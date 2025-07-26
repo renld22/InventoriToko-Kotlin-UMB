@@ -5,14 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F5F5F5"
     android:padding="16dp">
 
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keranjang Belanja"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#6200EE"
+        android:textColor="@android:color/white"
+        android:elevation="2dp" />
+
+    <!-- Daftar Produk -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCart"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:clipToPadding="false" />
 
+    <!-- Total Harga -->
     <TextView
         android:id="@+id/tvTotalPrice"
         android:layout_width="match_parent"
@@ -20,12 +41,20 @@
         android:text="Total: Rp 0"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:paddingTop="16dp"/>
+        android:textColor="#333333"
+        android:gravity="end"
+        android:paddingTop="16dp"
+        android:paddingEnd="8dp"/>
 
+    <!-- Tombol Bayar -->
     <Button
         android:id="@+id/btnCheckout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bayar Sekarang"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:elevation="2dp"/>
 </LinearLayout>
