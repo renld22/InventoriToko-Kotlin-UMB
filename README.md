@@ -13,10 +13,12 @@ Aplikasi Inventori Toko berbasis Kotlin (Android) yang dikembangkan untuk memenu
 ✅ Autentifikasi Pengguna 
   * Register user baru
   * Login user
+    
 ✅Manajemen Produk
   * Tampilkan daftar produk dari server (API).
   * Produk dengan gambar,nama,harga dan stok.
   * Detail produk dengan gambar full harga & info stok.
+    
 ✅Keranjang Belanja 
 * Tambah produk ke keranjang.
 * Lihat isi keranjang beserta jumlah item.
