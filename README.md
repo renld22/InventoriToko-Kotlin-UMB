@@ -73,40 +73,6 @@ Aplikasi Inventori Toko berbasis Kotlin (Android) yang dikembangkan untuk memenu
  
  7. Pembayaran Sukses Pembayaran Sukses
 
-## 🧭 Alur Aplikasi
-
-1. **Aplikasi Dibuka**
-   - Langsung menampilkan halaman Login.
-
-2. **Login**
-   - User mengisi Email dan Password
-   - Validasi:
-     - Format email harus valid
-     - Password minimal 6 karakter
-   - Jika login sukses:
-     - Arahkan ke halaman MainActivity
-     - Tampilkan: `Selamat Datang, [Nama User]`
-   - Jika gagal:
-     - Tampilkan pesan error
-   - Tersedia tombol untuk berpindah ke halaman Register
-
-3. **Register**
-   - User mengisi:
-     - Nama
-     - Email
-     - Password
-     - Konfirmasi Password
-   - Validasi:
-     - Semua input harus diisi
-     - Email harus valid
-     - Password dan konfirmasi minimal 6 karakter dan harus cocok
-     - Email belum pernah digunakan
-   - Jika valid:
-     - Simpan data ke SQLite
-     - Arahkan ke halaman Login
-
-4. **MainActivity**
-   - Menampilkan pesan: `Selamat Datang, [Nama User]`
 
 ---
 ## 📱Tampilan Login 
