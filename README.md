@@ -76,15 +76,15 @@ Aplikasi Inventori Toko berbasis Kotlin (Android) yang dikembangkan untuk memenu
 
 ---
 ## 📱Tampilan Login 
-![alt text](https://github.com/renld22/Pemograman4-UMB/blob/master/pictures/LOGINNN.png?raw=true)
+![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/pictures/LOGINNN.png?raw=true)
 ## 📲Tampilan Register
-![alt text](https://github.com/renld22/Pemograman4-UMB/blob/master/pictures/REGISTERRR.png?raw=true)
+![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/pictures/REGISTERRR.png?raw=true)
 ## 📵Login Gagal
-![alt text](https://github.com/renld22/Pemograman4-UMB/blob/master/pictures/login%20gagal.png?raw=true)
+![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/pictures/LISTBARANG.png?raw=true)
 ## ⛔Password kurang dari 6 karakter
-![alt text](https://github.com/renld22/Pemograman4-UMB/blob/master/pictures/password%20kurang.png?raw=true)
+![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/pictures/password%20kurang.png?raw=true)
 ## ✅Login Berhasil
-![alt text](https://github.com/renld22/Pemograman4-UMB/blob/master/pictures/login%20berhasil.png?raw=true)
+![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/pictures/login%20berhasil.png?raw=true)
 ## 🛠️ Tools & Teknologi
 
 - Java
