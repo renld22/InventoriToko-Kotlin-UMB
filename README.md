@@ -29,8 +29,16 @@ Aplikasi Inventori Toko berbasis Kotlin (Android) yang dikembangkan untuk memenu
 * Simulasikan pembayaran dan clear keranjang.
 * Popup pembayaran berhasil.
 
+## ⚙ Teknologi yang digunakan
+* Bahasa Pemrograman: Kotlin
+* Database: SQLite / Room
+* IDE: Android Studio
+* Desain UI: XML Layout
+* Arsitektur: MVVM (jika digunakan)
 
----
+## 📱 Cara Instalasi
+1.Clone Repository
+* 
 
 ## 🧭 Alur Aplikasi
 
