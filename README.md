@@ -1,4 +1,4 @@
-## Nama : Renaldi Muhammad Fauzi 
+## Nama : Renaldi Muhammad Fau
 ## Nim  : 220220027
 ## Universitas Muhammadiyah Banten 
 
@@ -8,7 +8,9 @@
 
 Sebuah aplikasi Android sederhana yang memungkinkan pengguna untuk melakukan register dan login menggunakan database lokal SQLite. Dibangun menggunakan Java, XML, dan SQLite dengan Android Studio.
 
-
+## Nama : Renaldi Muhammad Fau
+## Nim  : 220220027
+## Universitas Muhammadiyah Banten 
 
 ---
 
