@@ -74,8 +74,43 @@ Aplikasi Inventori Toko berbasis Kotlin (Android) yang dikembangkan untuk memenu
  
  7. Pembayaran Sukses Pembayaran Sukses
 
+-------------
+## 🧭 Alur Aplikasi
 
----
+1. **Aplikasi Dibuka**
+   - Langsung menampilkan halaman Login.
+
+2. **Login**
+   - Input Email dan Password
+   - Jika Berhasil:
+     - Arahkan ke halaman MainActivity
+- Jika Gagal:
+  - Tampilkan pesan error
+- Fitur Tambahan:
+  - Tombol untuk menuju halaman Register
+
+3. **Register**
+   - Input:
+     - Nama
+     - Email
+     - Password
+
+4. **List Barang**
+   - Menampilkan daftar barang yang tersedia
+   - User dapat memilih produk
+     
+5. **Keranjang**
+   - Produk yang dipilih ditambahkan ke keranjang
+     - Menampilkan:
+       - Nama produk
+       - Jumlah
+       - Total harga
+       - Tombol "Bayar" tersedia
+
+6. **Pembayaran Sukses**
+   - Setelah klik bayar, muncul:
+     - Pembayaran Sukses
+ ------------
 ## 📱Tampilan Login 
 ![alt text](https://github.com/renld22/InventoriToko-Kotlin-UMB/blob/master/gambar/loginnn1.png?raw=true)
 ## 📲Tampilan Register
